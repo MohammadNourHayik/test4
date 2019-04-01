@@ -6,6 +6,8 @@ class DAL{
     private $db="shift";
     private $password="";*/
 
+
+    //test commit 
     public static function query($sqlString){
        $conn = new \PDO('mysql:host=localhost;dbname=mypolicedb', "root","");
         $result = $conn->prepare($sqlString);
